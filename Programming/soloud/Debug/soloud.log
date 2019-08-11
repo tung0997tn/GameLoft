@@ -13,13 +13,13 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\
   ted.cpp
   soloud_vic.cpp
   soloud_vizsn.cpp
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\audiosource\vizsn\soloud_vizsn.cpp(250,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\audiosource\vizsn\soloud_vizsn.cpp(250,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\audiosource\vizsn\soloud_vizsn.cpp(264,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\audiosource\vizsn\soloud_vizsn.cpp(264,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\audiosource\vizsn\soloud_vizsn.cpp(275,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\audiosource\vizsn\soloud_vizsn.cpp(275,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\audiosource\vizsn\soloud_vizsn.cpp(288,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\audiosource\vizsn\soloud_vizsn.cpp(288,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   dr_impl.cpp
   soloud_wav.cpp
   soloud_wavstream.cpp
@@ -39,15 +39,15 @@ C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\audiosource\vizsn\soloud_vi
   soloud_xaudio2.cpp
   soloud.cpp
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\core\soloud.cpp(187,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\core\soloud.cpp(187,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\core\soloud.cpp(1629,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\core\soloud.cpp(1629,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\core\soloud.cpp(1668,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\core\soloud.cpp(1668,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\core\soloud.cpp(1991,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\core\soloud.cpp(1991,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\core\soloud.cpp(1997,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\core\soloud.cpp(1997,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   soloud_audiosource.cpp
   soloud_bus.cpp
   soloud_core_3d.cpp
@@ -59,33 +59,33 @@ C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\core\soloud.cpp(1997,2): wa
   soloud_core_voicegroup.cpp
   soloud_core_voiceops.cpp
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\core\soloud_core_voiceops.cpp(33,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\core\soloud_core_voiceops.cpp(33,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\core\soloud_core_voiceops.cpp(34,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\core\soloud_core_voiceops.cpp(34,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\core\soloud_core_voiceops.cpp(51,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\core\soloud_core_voiceops.cpp(51,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\core\soloud_core_voiceops.cpp(52,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\core\soloud_core_voiceops.cpp(52,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\core\soloud_core_voiceops.cpp(71,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\core\soloud_core_voiceops.cpp(71,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\core\soloud_core_voiceops.cpp(72,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\core\soloud_core_voiceops.cpp(72,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\core\soloud_core_voiceops.cpp(106,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\core\soloud_core_voiceops.cpp(106,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\core\soloud_core_voiceops.cpp(107,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\core\soloud_core_voiceops.cpp(107,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\core\soloud_core_voiceops.cpp(118,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\core\soloud_core_voiceops.cpp(118,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\core\soloud_core_voiceops.cpp(119,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\core\soloud_core_voiceops.cpp(119,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\core\soloud_core_voiceops.cpp(141,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\core\soloud_core_voiceops.cpp(141,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\core\soloud_core_voiceops.cpp(142,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\core\soloud_core_voiceops.cpp(142,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\core\soloud_core_voiceops.cpp(149,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\core\soloud_core_voiceops.cpp(149,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\core\soloud_core_voiceops.cpp(150,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\core\soloud_core_voiceops.cpp(150,2): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   soloud_fader.cpp
   Generating Code...
   Compiling...
@@ -107,144 +107,144 @@ C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\core\soloud_core_voiceops.c
   soloud_waveshaperfilter.cpp
   main.cpp
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\codegen\main.cpp(134,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\codegen\main.cpp(134,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): message :  see declaration of 'fopen'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\codegen\main.cpp(467,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\codegen\main.cpp(467,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\codegen\main.cpp(730,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\codegen\main.cpp(730,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): message :  see declaration of 'fopen'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\codegen\main.cpp(889,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\codegen\main.cpp(889,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): message :  see declaration of 'fopen'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\codegen\main.cpp(890,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\codegen\main.cpp(890,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): message :  see declaration of 'fopen'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\codegen\main.cpp(891,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\codegen\main.cpp(891,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): message :  see declaration of 'fopen'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\codegen\main.cpp(892,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\codegen\main.cpp(892,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): message :  see declaration of 'fopen'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\codegen\main.cpp(1116,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\codegen\main.cpp(1116,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   main.cpp
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): message :  see declaration of 'fopen'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\lutgen\main.cpp(159,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\lutgen\main.cpp(159,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   main.cpp
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): message :  see declaration of 'fopen'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\resamplerlab\main.cpp(736,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\resamplerlab\main.cpp(736,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\resamplerlab\main.cpp(738,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\resamplerlab\main.cpp(738,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\resamplerlab\main.cpp(944,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\resamplerlab\main.cpp(944,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\resamplerlab\main.cpp(948,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\resamplerlab\main.cpp(948,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\resamplerlab\main.cpp(965,1): warning C4996:  'setbuf': This function or variable may be unsafe. Consider using setvbuf instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\resamplerlab\main.cpp(965,1): warning C4996:  'setbuf': This function or variable may be unsafe. Consider using setvbuf instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(395): message :  see declaration of 'setbuf'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\resamplerlab\main.cpp(971,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\resamplerlab\main.cpp(971,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\resamplerlab\main.cpp(972,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\resamplerlab\main.cpp(972,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): message :  see declaration of 'fopen'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\resamplerlab\main.cpp(976,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\resamplerlab\main.cpp(976,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   sanity.cpp
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): message :  see declaration of 'fopen'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\sanity\sanity.cpp(1507,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\sanity\sanity.cpp(1507,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): message :  see declaration of 'fopen'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\sanity\sanity.cpp(1511,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\sanity\sanity.cpp(1511,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   Generating Code...
   Compiling...
   cbmtune.cpp
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): message :  see declaration of 'fopen'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\cbmtune.cpp(37,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\cbmtune.cpp(37,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   cpu.cpp
   main.cpp
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): message :  see declaration of 'fopen'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\main.cpp(159,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\main.cpp(159,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): message :  see declaration of 'fopen'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\main.cpp(186,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\main.cpp(186,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\main.cpp(204,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\main.cpp(204,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   sid.cpp
   tedmem.cpp
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): message :  see declaration of 'fopen'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedmem.cpp(75,1): warning C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedmem.cpp(75,1): warning C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): message :  see declaration of 'strcpy'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedmem.cpp(76,1): warning C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedmem.cpp(76,1): warning C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): message :  see declaration of 'strcpy'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedmem.cpp(187,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedmem.cpp(187,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): message :  see declaration of 'fopen'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedmem.cpp(212,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedmem.cpp(212,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   tedplay.cpp
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): message :  see declaration of 'fopen'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(62,1): warning C4996:  'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(62,1): warning C4996:  'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(338): message :  see declaration of 'strncpy'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(64,1): warning C4996:  'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(64,1): warning C4996:  'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(338): message :  see declaration of 'strncpy'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(66,1): warning C4996:  'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(66,1): warning C4996:  'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(338): message :  see declaration of 'strncpy'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(82,1): warning C4996:  'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(82,1): warning C4996:  'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): message :  see declaration of 'strcat'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(100,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(100,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(101,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(101,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(102,1): warning C4996:  'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(102,1): warning C4996:  'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): message :  see declaration of 'strcat'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(103,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(103,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(104,1): warning C4996:  'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(104,1): warning C4996:  'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): message :  see declaration of 'strcat'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(105,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(105,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(106,1): warning C4996:  'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(106,1): warning C4996:  'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): message :  see declaration of 'strcat'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(107,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(107,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(108,1): warning C4996:  'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(108,1): warning C4996:  'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): message :  see declaration of 'strcat'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(109,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(109,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(110,1): warning C4996:  'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(110,1): warning C4996:  'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): message :  see declaration of 'strcat'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(111,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(111,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(112,1): warning C4996:  'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(112,1): warning C4996:  'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): message :  see declaration of 'strcat'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(113,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(113,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(114,1): warning C4996:  'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(114,1): warning C4996:  'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): message :  see declaration of 'strcat'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(115,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(115,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(116,1): warning C4996:  'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(116,1): warning C4996:  'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): message :  see declaration of 'strcat'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(135,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(135,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): message :  see declaration of 'fopen'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(212,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(212,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): message :  see declaration of 'fopen'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(297,1): warning C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(297,1): warning C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): message :  see declaration of 'strcpy'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(299,1): warning C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(299,1): warning C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): message :  see declaration of 'strcpy'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(301,1): warning C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(301,1): warning C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): message :  see declaration of 'strcpy'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(378,1): warning C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(378,1): warning C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): message :  see declaration of 'strcpy'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(382,1): warning C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(382,1): warning C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): message :  see declaration of 'strcpy'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(385,1): warning C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(385,1): warning C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): message :  see declaration of 'strcpy'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(418,1): warning C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(418,1): warning C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): message :  see declaration of 'strcpy'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(419,1): warning C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(419,1): warning C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): message :  see declaration of 'strcpy'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(420,1): warning C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(420,1): warning C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): message :  see declaration of 'strcpy'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(449,1): warning C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(449,1): warning C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): message :  see declaration of 'strcpy'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(459,1): warning C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(459,1): warning C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): message :  see declaration of 'strcpy'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(460,1): warning C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(460,1): warning C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): message :  see declaration of 'strcpy'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(461,1): warning C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(461,1): warning C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): message :  see declaration of 'strcpy'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(462,1): warning C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\tedsid2dump\tedplay.cpp(462,1): warning C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   tedsound.cpp
   Generating Code...
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): message :  see declaration of 'strcpy'
@@ -254,11 +254,11 @@ C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): 
   soloud_sdl1_dll.c
   soloud_sdl2_dll.c
   stb_image_write.c
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\resamplerlab\stb_image_write.h(210,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\resamplerlab\stb_image_write.h(210,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): message :  see declaration of 'fopen'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\resamplerlab\stb_image_write.h(372,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\resamplerlab\stb_image_write.h(372,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): message :  see declaration of 'fopen'
-C:\Users\Asus\Desktop\lesson8\Programming\soloud\src\tools\resamplerlab\stb_image_write.h(702,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\soloud\src\tools\resamplerlab\stb_image_write.h(702,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   Generating Code...
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): message :  see declaration of 'fopen'
 Debug\main.obj : warning LNK4042: object specified more than once; extras ignored
@@ -270,4 +270,4 @@ ted.obj : warning LNK4006: "public: __thiscall TED::TED(void)" (??0TED@@QAE@XZ) 
 ted.obj : warning LNK4006: "public: void __thiscall TED::enableChannel(unsigned int,bool)" (?enableChannel@TED@@QAEXI_N@Z) already defined in tedmem.obj; second definition ignored
 ted.obj : warning LNK4006: "public: void __thiscall TED::oscillatorReset(void)" (?oscillatorReset@TED@@QAEXXZ) already defined in tedsound.obj; second definition ignored
 ted.obj : warning LNK4006: "public: void __thiscall TED::oscillatorInit(void)" (?oscillatorInit@TED@@QAEXXZ) already defined in tedsound.obj; second definition ignored
-  soloud.vcxproj -> C:\Users\Asus\Desktop\lesson8\Programming\soloud\Debug\soloud.lib
+  soloud.vcxproj -> D:\GitHub\GameLoft\Programming\soloud\Debug\soloud.lib

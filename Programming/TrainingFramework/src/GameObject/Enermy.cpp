@@ -42,7 +42,7 @@ void Enermy::Update(float deltaTime)
 		pos.x = pos.x - m_speed * deltaTime;
 	}
 	if (GSPlay::m_score > 1000) {
-		pos.x = pos.x - (GSPlay::m_score/1000) * m_speed * deltaTime;
+		pos.x = pos.x - (GSPlay::m_score / 1000) * m_speed * deltaTime;
 	}
 	Set2DPosition(pos);
 

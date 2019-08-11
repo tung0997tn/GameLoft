@@ -176,7 +176,7 @@ void GSPlay::Update(float deltaTime)
 	if (m_CreatButton == 1) return;
 
 	//Spawn random enemy
-	int num = rand() % 2 + 2-(2 * (GSPlay::m_score))/((GSPlay::m_score)+2000);
+	float num =rand() % 2 + 2 - (2 * (GSPlay::m_score))/((GSPlay::m_score)+2000);
 	if (m_SpawnCooldown > 0)
 	{
 		m_SpawnCooldown -= deltaTime;
@@ -300,7 +300,7 @@ void GSPlay::CreateRandomEnermy()
 	Vector2 pos;
 	pos.x = Application::screenWidth - 10;
 	pos.y = 360;
-
+	int style = rand() % 3 + 1;
 	for (auto enermy : m_listEnermy)
 	{
 		if (!enermy->IsActive())
@@ -313,11 +313,12 @@ void GSPlay::CreateRandomEnermy()
 	auto model = ResourceManagers::GetInstance()->GetModel("Sprite2D");
 	auto shader = ResourceManagers::GetInstance()->GetShader("TextureShader");
 	auto texture = ResourceManagers::GetInstance()->GetTexture("banana_peel");
-
+	if (style == 1) texture = ResourceManagers::GetInstance()->GetTexture("rock");
+	if (style == 2) texture = ResourceManagers::GetInstance()->GetTexture("wood");
 	std::shared_ptr<Enermy> enermy = std::make_shared<Enermy>(model, shader, texture);
 	enermy->Set2DPosition(pos);
 	enermy->SetSize(120, 120);
-	enermy->SetRotation(180);
+	//enermy->SetRotation(180);
 	m_listEnermy.push_back(enermy);
 }
 
