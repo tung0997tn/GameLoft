@@ -1,14 +1,36 @@
 ﻿  cl : Command line warning D9035 : option 'Gm' has been deprecated and will be removed in a future release
-  Player.cpp
+  GSPlay.cpp
 D:\GitHub\GameLoft\Programming\TrainingFramework\src\Helper\ThreadPool.h(37,13): warning C4477:  'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::thread::id'
 D:\GitHub\GameLoft\Programming\Soloud\include\soloud.h(37,1): warning C4005:  'WIN32_LEAN_AND_MEAN': macro redefinition
 D:\GitHub\GameLoft\Programming\Include\AMD\EGL\eglplatform.h(67): message :  see previous definition of 'WIN32_LEAN_AND_MEAN'
-D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameObject\Player.cpp(85,34): warning C4244:  '-=': conversion from 'float' to 'int', possible loss of data
-  Enermy.cpp
-D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameObject\Player.cpp(96,33): warning C4244:  '+=': conversion from 'float' to 'int', possible loss of data
-D:\GitHub\GameLoft\Programming\TrainingFramework\src\Helper\ThreadPool.h(37,13): warning C4477:  'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::thread::id'
-D:\GitHub\GameLoft\Programming\Soloud\include\soloud.h(37,1): warning C4005:  'WIN32_LEAN_AND_MEAN': macro redefinition
-D:\GitHub\GameLoft\Programming\Include\AMD\EGL\eglplatform.h(67): message :  see previous definition of 'WIN32_LEAN_AND_MEAN'
-  Generating Code...
-D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameObject\Enermy.cpp(9,21): warning C4305:  '=': truncation from 'double' to 'float'
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(41,86): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(41,55): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(92,80): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(92,49): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(104,90): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(104,53): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(116,90): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(116,53): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(165,39): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(165,36): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(188,12): warning C4244:  'initializing': conversion from 'int' to 'float', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(208,26): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(311,35): warning C4244:  '=': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(338,35): warning C4244:  '=': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1527,71): warning C4244:  'argument': conversion from '_Ty' to 'float', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1527,71): warning C4244:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1527,71): warning C4244:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1527,71): warning C4244:             _Ty=double
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1527,71): warning C4244:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1582): message :  see reference to function template instantiation 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<std::shared_ptr<Shaders>&,std::shared_ptr<Font>&,const char(&)[8],TEXT_COLOR,double>(std::shared_ptr<Shaders> &,std::shared_ptr<Font> &,const char (&)[8],TEXT_COLOR &&,double &&)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1582): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1582): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1582): message :             _Ty=Text
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1582): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1582): message :  see reference to function template instantiation 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<std::shared_ptr<Shaders>&,std::shared_ptr<Font>&,const char(&)[8],TEXT_COLOR,double>(std::shared_ptr<Shaders> &,std::shared_ptr<Font> &,const char (&)[8],TEXT_COLOR &&,double &&)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1582): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1582): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1582): message :             _Ty=Text
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1582): message :         ]
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(53): message :  see reference to function template instantiation 'std::shared_ptr<Text> std::make_shared<Text,std::shared_ptr<Shaders>&,std::shared_ptr<Font>&,const char(&)[8],TEXT_COLOR,double>(std::shared_ptr<Shaders> &,std::shared_ptr<Font> &,const char (&)[8],TEXT_COLOR &&,double &&)' being compiled
   TrainingFramework.vcxproj -> D:\GitHub\GameLoft\Programming\\BIN-Angle\TrainingFramework.exe

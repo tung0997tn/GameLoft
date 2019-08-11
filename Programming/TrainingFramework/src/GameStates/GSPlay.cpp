@@ -49,11 +49,11 @@ void GSPlay::Init()
 
 	//text game title
 	shader = ResourceManagers::GetInstance()->GetShader("TextShader");
-	std::shared_ptr<Font> font = ResourceManagers::GetInstance()->GetFont("arialbd");
-	m_scoreText = std::make_shared< Text>(shader, font, "SCORE: ", TEXT_COLOR::RED, 1.0);
-	m_scoreText->Set2DPosition(Vector2(5, 25));
-	m_playerHealText = std::make_shared< Text>(shader, font, "HEAL: ", TEXT_COLOR::RED, 1.0);
-	m_playerHealText->Set2DPosition(Vector2(5, 50));
+	std::shared_ptr<Font> font = ResourceManagers::GetInstance()->GetFont("Chercher-Bold");
+	m_scoreText = std::make_shared< Text>(shader, font, "SCORE: ", TEXT_COLOR::BLACK, 1.0);
+	m_scoreText->Set2DPosition(Vector2(10, 25));
+	m_playerHealText = std::make_shared< Text>(shader, font, "HEAL: ", TEXT_COLOR::BLACK, 1.0);
+	m_playerHealText->Set2DPosition(Vector2(10, 50));
 
 	//player
 	model = ResourceManagers::GetInstance()->GetModel("Sprite2D");
@@ -121,6 +121,15 @@ void GSPlay::CreatButton() {
 		GameStateMachine::GetInstance()->ChangeState(StateTypes::STATE_Menu);
 		});
 	m_listButton.push_back(button);
+
+	texture = ResourceManagers::GetInstance()->GetTexture("bg_play");
+
+
+	//text game over
+	shader = ResourceManagers::GetInstance()->GetShader("TextShader");
+	std::shared_ptr<Font> font = ResourceManagers::GetInstance()->GetFont("Chercher-Bold");
+	m_gameover = std::make_shared< Text>(shader, font, "GAME OVER", TEXT_COLOR::BLACK, 3.0);
+	m_gameover->Set2DPosition(Vector2(265 , 120));
 
 }
 
@@ -277,6 +286,7 @@ void GSPlay::Draw()
 	if (m_Player->IsAlive())
 		m_Player->Draw();
 	if(!(m_Player->IsAlive())){
+		m_gameover->Draw();
 		for (auto it : m_listButton)
 		{
 			it->Draw();

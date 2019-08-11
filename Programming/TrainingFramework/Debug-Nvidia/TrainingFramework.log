@@ -1,19 +1,25 @@
 ﻿  cl : Command line warning D9035 : option 'Gm' has been deprecated and will be removed in a future release
   TrainingFramework.cpp
   GSPlay.cpp
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\Helper\ThreadPool.h(37,13): warning C4477:  'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::thread::id'
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\Soloud\include\soloud.h(37,1): warning C4005:  'WIN32_LEAN_AND_MEAN': macro redefinition
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\Include\AMD\EGL\eglplatform.h(67): message :  see previous definition of 'WIN32_LEAN_AND_MEAN'
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(39,86): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(39,55): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(44,82): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(44,51): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(45,92): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(45,61): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(104,39): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(104,36): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(122,24): warning C4305:  '=': truncation from 'double' to 'float'
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(217,10): warning C4244:  '=': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\Helper\ThreadPool.h(37,13): warning C4477:  'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::thread::id'
+D:\GitHub\GameLoft\Programming\Soloud\include\soloud.h(37,1): warning C4005:  'WIN32_LEAN_AND_MEAN': macro redefinition
+D:\GitHub\GameLoft\Programming\Include\AMD\EGL\eglplatform.h(67): message :  see previous definition of 'WIN32_LEAN_AND_MEAN'
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(41,86): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(41,55): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(92,80): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(92,49): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(104,90): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(104,53): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(116,90): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(116,53): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(130,87): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(130,56): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(163,39): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(163,36): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(186,12): warning C4244:  'initializing': conversion from 'int' to 'float', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(206,26): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(308,35): warning C4244:  '=': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(335,35): warning C4244:  '=': conversion from 'int' to 'GLfloat', possible loss of data
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1527,71): warning C4244:  'argument': conversion from '_Ty' to 'float', possible loss of data
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1527,71): warning C4244:         with
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1527,71): warning C4244:         [
@@ -29,118 +35,122 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.2
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1582): message :         [
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1582): message :             _Ty=Text
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1582): message :         ]
+  GSOption.cpp
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(53): message :  see reference to function template instantiation 'std::shared_ptr<Text> std::make_shared<Text,std::shared_ptr<Shaders>&,std::shared_ptr<Font>&,const char(&)[8],TEXT_COLOR,double>(std::shared_ptr<Shaders> &,std::shared_ptr<Font> &,const char (&)[8],TEXT_COLOR &&,double &&)' being compiled
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\Helper\ThreadPool.h(37,13): warning C4477:  'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::thread::id'
+D:\GitHub\GameLoft\Programming\Soloud\include\soloud.h(37,1): warning C4005:  'WIN32_LEAN_AND_MEAN': macro redefinition
+D:\GitHub\GameLoft\Programming\Include\AMD\EGL\eglplatform.h(67): message :  see previous definition of 'WIN32_LEAN_AND_MEAN'
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSOption.cpp(34,86): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSOption.cpp(34,55): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
   GSMenu.cpp
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(51): message :  see reference to function template instantiation 'std::shared_ptr<Text> std::make_shared<Text,std::shared_ptr<Shaders>&,std::shared_ptr<Font>&,const char(&)[8],TEXT_COLOR,double>(std::shared_ptr<Shaders> &,std::shared_ptr<Font> &,const char (&)[8],TEXT_COLOR &&,double &&)' being compiled
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\Helper\ThreadPool.h(37,13): warning C4477:  'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::thread::id'
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\Soloud\include\soloud.h(37,1): warning C4005:  'WIN32_LEAN_AND_MEAN': macro redefinition
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\Include\AMD\EGL\eglplatform.h(67): message :  see previous definition of 'WIN32_LEAN_AND_MEAN'
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameStates\GSMenu.cpp(23,86): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameStates\GSMenu.cpp(23,55): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameStates\GSMenu.cpp(30,49): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameStates\GSMenu.cpp(40,49): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameStates\GSMenu.cpp(52,70): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1527,71): warning C4244:  'argument': conversion from '_Ty' to 'float', possible loss of data
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1527,71): warning C4244:         with
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1527,71): warning C4244:         [
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1527,71): warning C4244:             _Ty=double
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1527,71): warning C4244:         ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1582): message :  see reference to function template instantiation 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<std::shared_ptr<Shaders>&,std::shared_ptr<Font>&,const char(&)[12],TEXT_COLOR,double>(std::shared_ptr<Shaders> &,std::shared_ptr<Font> &,const char (&)[12],TEXT_COLOR &&,double &&)' being compiled
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1582): message :         with
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1582): message :         [
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1582): message :             _Ty=Text
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1582): message :         ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1582): message :  see reference to function template instantiation 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<std::shared_ptr<Shaders>&,std::shared_ptr<Font>&,const char(&)[12],TEXT_COLOR,double>(std::shared_ptr<Shaders> &,std::shared_ptr<Font> &,const char (&)[12],TEXT_COLOR &&,double &&)' being compiled
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1582): message :         with
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1582): message :         [
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1582): message :             _Ty=Text
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1582): message :         ]
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSOption.cpp(40,49): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\Helper\ThreadPool.h(37,13): warning C4477:  'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::thread::id'
+D:\GitHub\GameLoft\Programming\Soloud\include\soloud.h(37,1): warning C4005:  'WIN32_LEAN_AND_MEAN': macro redefinition
+D:\GitHub\GameLoft\Programming\Include\AMD\EGL\eglplatform.h(67): message :  see previous definition of 'WIN32_LEAN_AND_MEAN'
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSMenu.cpp(23,86): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSMenu.cpp(23,55): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSMenu.cpp(30,49): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSMenu.cpp(42,80): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSMenu.cpp(42,49): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSMenu.cpp(54,84): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSMenu.cpp(54,53): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSMenu.cpp(66,84): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
   GSIntro.cpp
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameStates\GSMenu.cpp(51): message :  see reference to function template instantiation 'std::shared_ptr<Text> std::make_shared<Text,std::shared_ptr<Shaders>&,std::shared_ptr<Font>&,const char(&)[12],TEXT_COLOR,double>(std::shared_ptr<Shaders> &,std::shared_ptr<Font> &,const char (&)[12],TEXT_COLOR &&,double &&)' being compiled
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\Helper\ThreadPool.h(37,13): warning C4477:  'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::thread::id'
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\Soloud\include\soloud.h(37,1): warning C4005:  'WIN32_LEAN_AND_MEAN': macro redefinition
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\Include\AMD\EGL\eglplatform.h(67): message :  see previous definition of 'WIN32_LEAN_AND_MEAN'
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameStates\GSIntro.cpp(22,80): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSMenu.cpp(66,53): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\Helper\ThreadPool.h(37,13): warning C4477:  'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::thread::id'
+D:\GitHub\GameLoft\Programming\Soloud\include\soloud.h(37,1): warning C4005:  'WIN32_LEAN_AND_MEAN': macro redefinition
+D:\GitHub\GameLoft\Programming\Include\AMD\EGL\eglplatform.h(67): message :  see previous definition of 'WIN32_LEAN_AND_MEAN'
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSIntro.cpp(22,80): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+  GSCredit.cpp
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSIntro.cpp(22,49): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\Helper\ThreadPool.h(37,13): warning C4477:  'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::thread::id'
+D:\GitHub\GameLoft\Programming\Soloud\include\soloud.h(37,1): warning C4005:  'WIN32_LEAN_AND_MEAN': macro redefinition
+D:\GitHub\GameLoft\Programming\Include\AMD\EGL\eglplatform.h(67): message :  see previous definition of 'WIN32_LEAN_AND_MEAN'
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSCredit.cpp(33,86): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSCredit.cpp(33,55): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
   GameStateMachine.cpp
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameStates\GSIntro.cpp(22,49): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\Helper\ThreadPool.h(37,13): warning C4477:  'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::thread::id'
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\Soloud\include\soloud.h(37,1): warning C4005:  'WIN32_LEAN_AND_MEAN': macro redefinition
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameStates\GSCredit.cpp(39,49): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\Helper\ThreadPool.h(37,13): warning C4477:  'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::thread::id'
+D:\GitHub\GameLoft\Programming\Soloud\include\soloud.h(37,1): warning C4005:  'WIN32_LEAN_AND_MEAN': macro redefinition
   GameStatebase.cpp
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\Include\AMD\EGL\eglplatform.h(67): message :  see previous definition of 'WIN32_LEAN_AND_MEAN'
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\Helper\ThreadPool.h(37,13): warning C4477:  'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::thread::id'
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\Soloud\include\soloud.h(37,1): warning C4005:  'WIN32_LEAN_AND_MEAN': macro redefinition
+D:\GitHub\GameLoft\Programming\Include\AMD\EGL\eglplatform.h(67): message :  see previous definition of 'WIN32_LEAN_AND_MEAN'
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\Helper\ThreadPool.h(37,13): warning C4477:  'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::thread::id'
+D:\GitHub\GameLoft\Programming\Soloud\include\soloud.h(37,1): warning C4005:  'WIN32_LEAN_AND_MEAN': macro redefinition
   Texture.cpp
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\Include\AMD\EGL\eglplatform.h(67): message :  see previous definition of 'WIN32_LEAN_AND_MEAN'
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameObject\Texture.cpp(26,29): warning C4244:  'argument': conversion from 'GLint' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\Include\AMD\EGL\eglplatform.h(67): message :  see previous definition of 'WIN32_LEAN_AND_MEAN'
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameObject\Texture.cpp(26,29): warning C4244:  'argument': conversion from 'GLint' to 'GLfloat', possible loss of data
   Text.cpp
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameObject\Texture.cpp(26,26): warning C4244:  'argument': conversion from 'GLint' to 'GLfloat', possible loss of data
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameObject\Text.cpp(22,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameObject\Text.cpp(23,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameObject\Text.cpp(169,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameObject\Text.cpp(170,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameObject\Text.cpp(180,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameObject\Texture.cpp(26,26): warning C4244:  'argument': conversion from 'GLint' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameObject\Text.cpp(22,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameObject\Text.cpp(23,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameObject\Text.cpp(169,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameObject\Text.cpp(170,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameObject\Text.cpp(180,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
   SpriteSheet.cpp
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameObject\Text.cpp(181,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameObject\SpriteSheet.cpp(41,33): warning C4244:  '=': conversion from 'int' to 'GLfloat', possible loss of data
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameObject\SpriteSheet.cpp(42,33): warning C4244:  '=': conversion from 'int' to 'GLfloat', possible loss of data
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameObject\SpriteSheet.cpp(118,24): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameObject\SpriteSheet.cpp(118,16): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameObject\SpriteSheet.cpp(173,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameObject\SpriteSheet.cpp(174,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameObject\SpriteSheet.cpp(184,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameObject\SpriteSheet.cpp(185,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameObject\SpriteSheet.cpp(199,15): warning C4244:  '=': conversion from 'GLint' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameObject\Text.cpp(181,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameObject\SpriteSheet.cpp(41,33): warning C4244:  '=': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameObject\SpriteSheet.cpp(42,33): warning C4244:  '=': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameObject\SpriteSheet.cpp(118,24): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameObject\SpriteSheet.cpp(118,16): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameObject\SpriteSheet.cpp(173,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameObject\SpriteSheet.cpp(174,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameObject\SpriteSheet.cpp(184,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameObject\SpriteSheet.cpp(185,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameObject\SpriteSheet.cpp(199,15): warning C4244:  '=': conversion from 'GLint' to 'GLfloat', possible loss of data
   Shaders.cpp
   Models.cpp
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameObject\SpriteSheet.cpp(200,15): warning C4244:  '=': conversion from 'GLint' to 'GLfloat', possible loss of data
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameObject\Models.cpp(25,18): warning C4244:  'initializing': conversion from 'std::streamoff' to 'size_t', possible loss of data
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameObject\Models.cpp(35,1): warning C4996:  'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameObject\SpriteSheet.cpp(200,15): warning C4244:  '=': conversion from 'GLint' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameObject\Models.cpp(25,18): warning C4244:  'initializing': conversion from 'std::streamoff' to 'size_t', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameObject\Models.cpp(35,1): warning C4996:  'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(2263): message :  see declaration of 'sscanf'
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameObject\Models.cpp(40,1): warning C4996:  'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameObject\Models.cpp(40,1): warning C4996:  'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(2263): message :  see declaration of 'sscanf'
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameObject\Models.cpp(62,1): warning C4996:  'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameObject\Models.cpp(62,1): warning C4996:  'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(2263): message :  see declaration of 'sscanf'
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameObject\Models.cpp(68,1): warning C4996:  'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameObject\Models.cpp(68,1): warning C4996:  'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   Sprite3D.cpp
   Camera.cpp
   Sprite2D.cpp
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(2263): message :  see declaration of 'sscanf'
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameObject\Sprite2D.cpp(146,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameObject\Sprite2D.cpp(147,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameObject\Sprite2D.cpp(157,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameObject\Sprite2D.cpp(158,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameObject\Sprite2D.cpp(172,15): warning C4244:  '=': conversion from 'GLint' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameObject\Sprite2D.cpp(146,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameObject\Sprite2D.cpp(147,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameObject\Sprite2D.cpp(157,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameObject\Sprite2D.cpp(158,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameObject\Sprite2D.cpp(172,15): warning C4244:  '=': conversion from 'GLint' to 'GLfloat', possible loss of data
   Player.cpp
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameObject\Sprite2D.cpp(173,15): warning C4244:  '=': conversion from 'GLint' to 'GLfloat', possible loss of data
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\Helper\ThreadPool.h(37,13): warning C4477:  'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::thread::id'
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\Soloud\include\soloud.h(37,1): warning C4005:  'WIN32_LEAN_AND_MEAN': macro redefinition
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\Include\AMD\EGL\eglplatform.h(67): message :  see previous definition of 'WIN32_LEAN_AND_MEAN'
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameObject\Player.cpp(8,21): warning C4305:  '=': truncation from 'double' to 'float'
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameObject\Player.cpp(127,34): warning C4244:  '-=': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameObject\Sprite2D.cpp(173,15): warning C4244:  '=': conversion from 'GLint' to 'GLfloat', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\Helper\ThreadPool.h(37,13): warning C4477:  'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::thread::id'
+D:\GitHub\GameLoft\Programming\Soloud\include\soloud.h(37,1): warning C4005:  'WIN32_LEAN_AND_MEAN': macro redefinition
+D:\GitHub\GameLoft\Programming\Include\AMD\EGL\eglplatform.h(67): message :  see previous definition of 'WIN32_LEAN_AND_MEAN'
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameObject\Player.cpp(85,34): warning C4244:  '-=': conversion from 'float' to 'int', possible loss of data
+  Heart.cpp
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameObject\Player.cpp(96,33): warning C4244:  '+=': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\Helper\ThreadPool.h(37,13): warning C4477:  'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::thread::id'
+D:\GitHub\GameLoft\Programming\Soloud\include\soloud.h(37,1): warning C4005:  'WIN32_LEAN_AND_MEAN': macro redefinition
+D:\GitHub\GameLoft\Programming\Include\AMD\EGL\eglplatform.h(67): message :  see previous definition of 'WIN32_LEAN_AND_MEAN'
   GameButton.cpp
   Font.cpp
-  ExplosiveEffect.cpp
-  Enermy.cpp
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameObject\Player.cpp(139,34): warning C4244:  '-=': conversion from 'float' to 'int', possible loss of data
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\Helper\ThreadPool.h(37,13): warning C4477:  'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::thread::id'
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\Soloud\include\soloud.h(37,1): warning C4005:  'WIN32_LEAN_AND_MEAN': macro redefinition
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\Include\AMD\EGL\eglplatform.h(67): message :  see previous definition of 'WIN32_LEAN_AND_MEAN'
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameObject\Enermy.cpp(9,21): warning C4305:  '=': truncation from 'double' to 'float'
-  Bullet.cpp
   Generating Code...
   Compiling...
+  ExplosiveEffect.cpp
+  Enermy.cpp
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameObject\Heart.cpp(9,21): warning C4305:  '=': truncation from 'double' to 'float'
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\Helper\ThreadPool.h(37,13): warning C4477:  'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::thread::id'
+D:\GitHub\GameLoft\Programming\Soloud\include\soloud.h(37,1): warning C4005:  'WIN32_LEAN_AND_MEAN': macro redefinition
+D:\GitHub\GameLoft\Programming\Include\AMD\EGL\eglplatform.h(67): message :  see previous definition of 'WIN32_LEAN_AND_MEAN'
   SoundManager.cpp
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\GameObject\Enermy.cpp(99,34): warning C4244:  '-=': conversion from 'float' to 'int', possible loss of data
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\Helper\ThreadPool.h(37,13): warning C4477:  'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::thread::id'
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\Soloud\include\soloud.h(37,1): warning C4005:  'WIN32_LEAN_AND_MEAN': macro redefinition
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\GameObject\Enermy.cpp(9,21): warning C4305:  '=': truncation from 'double' to 'float'
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\Helper\ThreadPool.h(37,13): warning C4477:  'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::thread::id'
+D:\GitHub\GameLoft\Programming\Soloud\include\soloud.h(37,1): warning C4005:  'WIN32_LEAN_AND_MEAN': macro redefinition
   ResourceManagers.cpp
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\Include\AMD\EGL\eglplatform.h(67): message :  see previous definition of 'WIN32_LEAN_AND_MEAN'
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\Helper\ThreadPool.h(37,13): warning C4477:  'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::thread::id'
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\Soloud\include\soloud.h(37,1): warning C4005:  'WIN32_LEAN_AND_MEAN': macro redefinition
+D:\GitHub\GameLoft\Programming\Include\AMD\EGL\eglplatform.h(67): message :  see previous definition of 'WIN32_LEAN_AND_MEAN'
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\Helper\ThreadPool.h(37,13): warning C4477:  'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::thread::id'
+D:\GitHub\GameLoft\Programming\Soloud\include\soloud.h(37,1): warning C4005:  'WIN32_LEAN_AND_MEAN': macro redefinition
   Application.cpp
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\Include\AMD\EGL\eglplatform.h(67): message :  see previous definition of 'WIN32_LEAN_AND_MEAN'
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\TrainingFramework\src\Helper\ThreadPool.h(37,13): warning C4477:  'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::thread::id'
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\Soloud\include\soloud.h(37,1): warning C4005:  'WIN32_LEAN_AND_MEAN': macro redefinition
+D:\GitHub\GameLoft\Programming\Include\AMD\EGL\eglplatform.h(67): message :  see previous definition of 'WIN32_LEAN_AND_MEAN'
+D:\GitHub\GameLoft\Programming\TrainingFramework\src\Helper\ThreadPool.h(37,13): warning C4477:  'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::thread::id'
+D:\GitHub\GameLoft\Programming\Soloud\include\soloud.h(37,1): warning C4005:  'WIN32_LEAN_AND_MEAN': macro redefinition
   Generating Code...
-C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\Include\AMD\EGL\eglplatform.h(67): message :  see previous definition of 'WIN32_LEAN_AND_MEAN'
+D:\GitHub\GameLoft\Programming\Include\AMD\EGL\eglplatform.h(67): message :  see previous definition of 'WIN32_LEAN_AND_MEAN'
 Application.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
-  TrainingFramework.vcxproj -> C:\Users\Asus\Desktop\GameLoft\lesson8\Programming\\BIN-Nvidia\TrainingFramework.exe
+  TrainingFramework.vcxproj -> D:\GitHub\GameLoft\Programming\\BIN-Nvidia\TrainingFramework.exe
