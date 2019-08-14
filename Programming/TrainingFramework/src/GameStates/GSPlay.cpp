@@ -12,14 +12,18 @@
 #include "Player.h"
 #include "Enermy.h"
 #include "Heart.h"
+#include "Coin.h"
 #include "GameButton.h"
 #include "ExplosiveEffect.h"
 
 int GSPlay::m_score = 0;
+int GSPlay::m_money = 0;
 GSPlay::GSPlay()
 {
 	m_SpawnCooldown = 0.5;
 	m_SpawnCooldownHeart = 25;
+	m_SpawnCooldownCoin = 1;
+	m_money = 0;
 	m_score = 0;
 	m_CreatButton = 0;
 }
@@ -41,19 +45,25 @@ void GSPlay::Init()
 	m_BackGround->Set2DPosition(Application::screenWidth / 2, Application::screenHeight / 2);
 	m_BackGround->SetSize(Application::screenWidth, Application::screenHeight);
 	
-	//player
-	//texture = ResourceManagers::GetInstance()->GetTexture("Monkey");
-	//m_Player = std::make_shared<Player >(model, shader, texture);
-	//m_Player->Set2DPosition(150, 345);
-	//m_Player->SetSize(170, 170);
+	texture = ResourceManagers::GetInstance()->GetTexture("icon_coin");
+	m_icon_coin = std::make_shared<Sprite2D>(model, shader, texture);
+	m_icon_coin->Set2DPosition(Application::screenWidth - 125, 20);
+	m_icon_coin->SetSize(25, 25);
+
+	texture = ResourceManagers::GetInstance()->GetTexture("icon_heal");
+	m_icon_heal = std::make_shared<Sprite2D>(model, shader, texture);
+	m_icon_heal->Set2DPosition(20, 20);
+	m_icon_heal->SetSize(25, 25);
 
 	//text game title
 	shader = ResourceManagers::GetInstance()->GetShader("TextShader");
 	std::shared_ptr<Font> font = ResourceManagers::GetInstance()->GetFont("Chercher-Bold");
-	m_scoreText = std::make_shared< Text>(shader, font, "SCORE: ", TEXT_COLOR::BLACK, 1.0);
-	m_scoreText->Set2DPosition(Vector2(10, 25));
-	m_playerHealText = std::make_shared< Text>(shader, font, "HEAL: ", TEXT_COLOR::BLACK, 1.0);
-	m_playerHealText->Set2DPosition(Vector2(10, 50));
+	m_moneyText = std::make_shared< Text>(shader, font, "MONEY", TEXT_COLOR::BLACK, 1.0);
+	m_moneyText->Set2DPosition(Vector2(Application::screenWidth - 110, 25));
+	m_scoreText = std::make_shared< Text>(shader, font, "SCORE", TEXT_COLOR::BLACK, 1.0);
+	m_scoreText->Set2DPosition(Vector2(Application::screenWidth/2 - 80, 25));
+	m_playerHealText = std::make_shared< Text>(shader, font, "HEAL", TEXT_COLOR::BLACK, 1.0);
+	m_playerHealText->Set2DPosition(Vector2(35, 25));
 
 	//player
 	model = ResourceManagers::GetInstance()->GetModel("Sprite2D");
@@ -78,6 +88,8 @@ void GSPlay::Init()
 	SoundManager::GetInstance()->AddSound("play_bground");
 	SoundManager::GetInstance()->AddSound("jump");
 	SoundManager::GetInstance()->AddSound("dead");
+	SoundManager::GetInstance()->AddSound("coin");
+
 	
 	SoundManager::GetInstance()->PlaySound("play_bground");
 }
@@ -122,9 +134,6 @@ void GSPlay::CreatButton() {
 		});
 	m_listButton.push_back(button);
 
-	texture = ResourceManagers::GetInstance()->GetTexture("bg_play");
-
-
 	//text game over
 	shader = ResourceManagers::GetInstance()->GetShader("TextShader");
 	std::shared_ptr<Font> font = ResourceManagers::GetInstance()->GetFont("Chercher-Bold");
@@ -157,7 +166,11 @@ void GSPlay::HandleEvents()
 
 void GSPlay::HandleKeyEvents(int key, bool bIsPressed)
 {
-
+	if (key == 32 && bIsPressed) {
+		if (m_Player->IsAlive()) {
+			m_Player->Jump(1);
+		}
+	}
 }
 
 void GSPlay::HandleMouseEvents(int x, int y)
@@ -185,7 +198,10 @@ void GSPlay::Update(float deltaTime)
 	if (m_CreatButton == 1) return;
 
 	//Spawn random enemy
-	float num =rand() % 2 + 2 - (2 * (GSPlay::m_score))/((GSPlay::m_score)+2000);
+	float num = rand() % 2 + 2;
+	if (m_score > 2000) num = rand() % 2 + 1 - (m_score / (m_score + 2000));
+	if (m_score > 4000) num = 1 - (m_score / (m_score + 4000));
+	if (m_score > 6000) num = 1 - (m_score / (m_score + 6000));
 	if (m_SpawnCooldown > 0)
 	{
 		m_SpawnCooldown -= deltaTime;
@@ -195,9 +211,8 @@ void GSPlay::Update(float deltaTime)
 		CreateRandomEnermy();
 		m_SpawnCooldown = num;
 	}
-
 	//Spawn random heart
-	int num1 = 25 - (10 * (GSPlay::m_score)) / ((GSPlay::m_score) + 2000);
+	int heartCD = 25 - (10 * (m_score)) / ((m_score) + 2000);
 	if (m_SpawnCooldownHeart > 0)
 	{
 		m_SpawnCooldownHeart -= deltaTime;
@@ -205,7 +220,20 @@ void GSPlay::Update(float deltaTime)
 	if (m_SpawnCooldownHeart <= 0)
 	{
 		CreateRandomHeart();
-		m_SpawnCooldownHeart = num1;
+		m_SpawnCooldownHeart = heartCD;
+	}
+	//Spawn random coin
+	float coinCD = 1;
+	if (m_score > 1000) coinCD = 1 - 0.1 * (m_score / 1000);
+	if (m_score > 9000) coinCD = 0.1;
+	if (m_SpawnCooldownCoin > 0)
+	{
+		m_SpawnCooldownCoin -= deltaTime;
+	}
+	if (m_SpawnCooldownCoin <= 0)
+	{
+		CreateRandomCoin();
+		m_SpawnCooldownCoin = coinCD;
 	}
 	//update player
 	if (m_Player->IsAlive())
@@ -214,7 +242,7 @@ void GSPlay::Update(float deltaTime)
 		//if (m_Player->CanJump()){
 		//	m_Player->Jump(deltaTime);
 		//}
-		m_Player->CheckCollider(m_listEnermy, m_listHeart);
+		m_Player->CheckCollider(m_listEnermy, m_listHeart, m_listCoin);
 	}
 	//creat button 1 times
 	if (m_CreatButton == 0) {
@@ -223,7 +251,7 @@ void GSPlay::Update(float deltaTime)
 			m_CreatButton++;
 		}
 	}
-	//update enermies
+	//update enermy
 	for (auto enermy : m_listEnermy)
 	{
 		if (enermy->IsActive())
@@ -251,6 +279,20 @@ void GSPlay::Update(float deltaTime)
 			heart->Update(deltaTime);
 		}
 	}
+	//update coin
+	for (auto coin : m_listCoin)
+	{
+		if (coin->IsActive())
+		{
+			if (coin->IsExplosive())
+			{
+				coin->SetActive(false);
+				SoundManager::GetInstance()->PlaySound("coin");
+				continue;
+			}
+			coin->Update(deltaTime);
+		}
+	}
 	//effect
 	for (auto exp : m_listExplosiveEffect)
 	{
@@ -266,14 +308,20 @@ void GSPlay::Update(float deltaTime)
 	m_scoreText->setText(score);
 	std::stringstream stream2;
 	stream2 << std::fixed << std::setprecision(0) << m_Player->GetHeal();
-	std::string heal = "HEAL: " + stream2.str();
+	std::string heal = " X " + stream2.str();
 	m_playerHealText->setText(heal);
+	std::stringstream stream3;
+	stream3 << std::fixed << std::setprecision(0) << m_money;
+	std::string money = " X " + stream3.str();
+	m_moneyText->setText(money);
 }
 
 void GSPlay::Draw()
 {
 	//ground
 	m_BackGround->Draw();
+	m_icon_coin->Draw();
+	m_icon_heal->Draw();
 	//enemy
 	for (auto enermy : m_listEnermy)
 		if (enermy->IsActive())
@@ -282,6 +330,10 @@ void GSPlay::Draw()
 	for (auto heart : m_listHeart)
 		if (heart->IsActive())
 			heart->Draw();
+	//coin
+	for (auto coin : m_listCoin)
+		if (coin->IsActive())
+			coin->Draw();
 	//player
 	if (m_Player->IsAlive())
 		m_Player->Draw();
@@ -301,6 +353,7 @@ void GSPlay::Draw()
 		}
 	}
 	//UI
+	m_moneyText->Draw();
 	m_scoreText->Draw();
 	m_playerHealText->Draw();
 }
@@ -328,7 +381,6 @@ void GSPlay::CreateRandomEnermy()
 	std::shared_ptr<Enermy> enermy = std::make_shared<Enermy>(model, shader, texture);
 	enermy->Set2DPosition(pos);
 	enermy->SetSize(120, 120);
-	//enermy->SetRotation(180);
 	m_listEnermy.push_back(enermy);
 }
 
@@ -355,8 +407,34 @@ void GSPlay::CreateRandomHeart()
 	heart->Set2DPosition(pos);
 	heart->SetSize(100, 77);
 	heart->SetActive(true);
-	//heart->SetRotation(180);
 	m_listHeart.push_back(heart);
+}
+
+void GSPlay::CreateRandomCoin()
+{
+	int num = 150 + rand() % 110;
+	Vector2 pos;
+	pos.x = Application::screenWidth - 10;
+	pos.y = num;
+
+	for (auto coin : m_listCoin)
+	{
+		if (!coin->IsActive())
+		{
+			coin->SetActive(true);
+			coin->Set2DPosition(pos);
+			return;
+		}
+	}
+	auto model = ResourceManagers::GetInstance()->GetModel("Sprite2D");
+	auto shader = ResourceManagers::GetInstance()->GetShader("SpriteShader");
+	auto texture = ResourceManagers::GetInstance()->GetTexture("coin");
+
+	std::shared_ptr<Coin> coin = std::make_shared<Coin>(model, shader, texture, Vector2(936, 52), Vector2(52, 52), 0, 17, 1.0);
+	coin->Set2DPosition(pos);
+	coin->SetSize(52, 52);
+	coin->SetActive(true);
+	m_listCoin.push_back(coin);
 }
 
 void GSPlay::SpawnExplosive(Vector2 pos)

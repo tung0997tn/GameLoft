@@ -49,7 +49,7 @@ void GSMenu::Init()
 	m_listButton.push_back(button);
 
 	//option button
-	texture = ResourceManagers::GetInstance()->GetTexture("button_option");
+	texture = ResourceManagers::GetInstance()->GetTexture("button_help");
 	button = std::make_shared<GameButton>(model, shader, texture);
 	button->Set2DPosition(2 * Application::screenWidth / 4, Application::screenHeight - 80);
 	button->SetSize(227, 63);

@@ -64,6 +64,9 @@ void Sprite2D::Draw()
 	glBindBuffer(GL_ARRAY_BUFFER, m_pModel->GetVertexObject());
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, m_pModel->GetIndiceObject());
 
+	glEnable(GL_BLEND);
+	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+
 	GLuint iTempShaderVaribleGLID = -1;
 	Matrix matrixWVP;
 

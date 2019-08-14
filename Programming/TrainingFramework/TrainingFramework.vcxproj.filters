@@ -93,6 +93,9 @@
     <ClCompile Include="src\GameObject\Heart.cpp">
       <Filter>src\GameObject</Filter>
     </ClCompile>
+    <ClCompile Include="src\GameObject\Coin.cpp">
+      <Filter>src\GameObject</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Application.h">
@@ -180,6 +183,9 @@
       <Filter>src\GameStates</Filter>
     </ClInclude>
     <ClInclude Include="src\GameObject\Heart.h">
+      <Filter>src\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\Coin.h">
       <Filter>src\GameObject</Filter>
     </ClInclude>
   </ItemGroup>

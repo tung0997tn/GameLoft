@@ -72,7 +72,7 @@ float Player::distance(Vector2 pos, Vector2 target)
 	return sqrt((pos.x - target.x) * (pos.x - target.x) + (pos.y - target.y) * (pos.y - target.y));
 }
 
-void Player::CheckCollider(std::vector<std::shared_ptr<Enermy>> listEnermy, std::vector<std::shared_ptr<Heart>> listHeart)
+void Player::CheckCollider(std::vector<std::shared_ptr<Enermy>> listEnermy, std::vector<std::shared_ptr<Heart>> listHeart, std::vector<std::shared_ptr<Coin>> listCoin)
 {
 	Vector2 pos = Get2DPosition();
 	for (auto enermy : listEnermy)
@@ -97,7 +97,17 @@ void Player::CheckCollider(std::vector<std::shared_ptr<Enermy>> listEnermy, std:
 			}
 		}
 	}
-	
+	for (auto coin : listCoin)
+	{
+		if (coin->IsActive())
+		{
+			if (distance(pos, coin->Get2DPosition()) < m_SizeCollider + coin->GetColliderSize())
+			{
+				coin->Explosive();
+				GSPlay::m_money += 100;
+			}
+		}
+	}
 }
 
 bool Player::IsActive()

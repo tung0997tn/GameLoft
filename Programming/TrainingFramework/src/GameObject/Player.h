@@ -2,6 +2,7 @@
 #include "Sprite2D.h"
 #include <Enermy.h>
 #include <Heart.h>
+#include <Coin.h>
 #include "SpriteSheet.h"
 
 class Player : public SpriteSheet
@@ -15,7 +16,7 @@ public:
 	void Update(GLfloat deltatime) override;
 
 	void Jump(GLfloat deltatime);
-	void CheckCollider(std::vector<std::shared_ptr<Enermy>> listEnermy, std::vector<std::shared_ptr<Heart>> listHeart);
+	void CheckCollider(std::vector<std::shared_ptr<Enermy>> listEnermy, std::vector<std::shared_ptr<Heart>> listHeart, std::vector<std::shared_ptr<Coin>> listCoin);
 
 	void		SetColliderSize(float size);
 	float		GetColliderSize();
